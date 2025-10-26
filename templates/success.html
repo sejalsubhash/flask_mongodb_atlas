@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Success</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #a8edea, #fed6e3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .success-container {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 40px 30px;
+      width: 350px;
+      transition: transform 0.3s ease;
+    }
+
+    .success-container:hover {
+      transform: scale(1.02);
+    }
+
+    h1 {
+      color: #28a745;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+
+    .icon {
+      font-size: 50px;
+      color: #28a745;
+      margin-bottom: 15px;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      background: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    a:hover {
+      background: #0056b3;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="success-container">
+    <div class="icon">✅</div>
+    <h1>Data Submitted Successfully!</h1>
+    <p>Your information has been recorded.</p>
+    <a href="/">Submit Another</a>
+  </div>
+</body>
+</html>
